@@ -1,0 +1,29 @@
+# Ignore virtual environments
+venv/
+ENV/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore data junk
+*.csv
+*.joblib
+*.pkl
+
+# But keep important processed data
+!data/processed/preprocessed.csv
+!data/processed/label_encoder.joblib
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Gradle and build stuff
+.gradle/
+build/
