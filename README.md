@@ -3,8 +3,8 @@
 This repository is for my Edunet Foundation 4-week internship project.
 
 ## Week 1 (30% Progress)
-- ✅ Collected dataset: `data/raw/Crop_recommendation.csv`
-- ✅ Performed EDA & preprocessing in `notebooks/1_data_preproc.ipynb`
+- ✅ Collected dataset: `data/raw/smart-crop-irrigation.csv`
+- ✅ Performed EDA & preprocessing in `notebooks/1_data_preprocessing.ipynb`
 - ✅ Saved `data/processed/preprocessed.csv` and `label_encoder.joblib`
 - ✅ Added basic visualizations (class balance, feature histograms)
 
