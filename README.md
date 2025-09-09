@@ -23,9 +23,14 @@ This repository is for my Edunet Foundation 4-week internship project.
 ```bash
 git clone https://github.com/Umme-Kulsum-44/smart-crop-irrigation.git
 cd smart-crop-irrigation
+2️⃣ Create and activate the virtual environment
 python -m venv venv
 venv\Scripts\activate
+3️⃣ Install dependencies
 pip install -r requirements.txt
+4️⃣ Run model training
+Open Jupyter and run notebooks/2_model_training.ipynb.
+5️⃣ Launch the Streamlit app
 streamlit run app/app.py
 
 
