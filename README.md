@@ -9,7 +9,7 @@ This repository is for my Edunet Foundation 4-week internship project.
 - ✅ Added basic visualizations (class balance, feature histograms)
 
 
-## ✅ Week 2 Deliverables
+## Week 2 Deliverables
 - Model training using Random Forest Classifier
 - Evaluation with accuracy and classification report
 - Streamlit web app for real-time crop recommendation
@@ -18,19 +18,25 @@ This repository is for my Edunet Foundation 4-week internship project.
   
 
 ## 🚀 How to Run This Project Locally
-
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/Umme-Kulsum-44/smart-crop-irrigation.git
 cd smart-crop-irrigation
-2️⃣ Create and activate the virtual environment
+```
+### 2️⃣ Create and activate the virtual environment
+```bash
 python -m venv venv
 venv\Scripts\activate
-3️⃣ Install dependencies
+```
+### 3️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
-4️⃣ Run model training
+```
+### 4️⃣ Run model training
+```bash
 Open Jupyter and run notebooks/2_model_training.ipynb.
-5️⃣ Launch the Streamlit app
+```
+### 5️⃣ Launch the Streamlit app
+```bash
 streamlit run app/app.py
-
 
