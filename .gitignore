@@ -27,3 +27,8 @@ Thumbs.db
 # Ignore Gradle and build stuff
 .gradle/
 build/
+
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
