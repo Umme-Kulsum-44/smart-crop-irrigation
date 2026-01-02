@@ -1,34 +1,37 @@
-# Ignore virtual environments
+# =========================
+# Virtual environments
+# =========================
 venv/
 ENV/
+venv311/
+newenv/
 
-# Ignore Python cache
+# =========================
+# Python cache
+# =========================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Ignore Jupyter checkpoints
+# =========================
+# Jupyter
+# =========================
 .ipynb_checkpoints/
 
-# Ignore data junk
-*.csv
-*.joblib
-*.pkl
+# =========================
+# Ignore RAW datasets only
+# =========================
+# (comment this if your CSV is small and you want to upload it)
+# *.csv
 
-# But keep important processed data
-!data/processed/preprocessed.csv
-!data/processed/label_encoder.joblib
+# =========================
+# IMPORTANT: keep ML models
+# =========================
+# DO NOT ignore .joblib or .pkl
 
-# Ignore system files
+# =========================
+# System files
+# =========================
 .DS_Store
 Thumbs.db
-
-# Ignore Gradle and build stuff
-.gradle/
-build/
-
-venv/
-__pycache__/
-.ipynb_checkpoints/
-*.pyc
