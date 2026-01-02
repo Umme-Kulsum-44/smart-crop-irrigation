@@ -1,13 +1,18 @@
-# Smart Crop Recommendation & Irrigation (Week 1)
+Smart Crop Recommendation & Irrigation
 
-This repository is for my Edunet Foundation 4-week internship project.
+#1
+Collected dataset: data/raw/smart-crop-irrigation.csv
+Performed EDA & preprocessing in notebooks/1_data_preprocessing.ipynb
+Saved data/processed/preprocessed.csv and label_encoder.joblib
+Added basic visualizations (class balance, feature histograms)
 
-## Week 1 (30% Progress)
-- ✅ Collected dataset: `data/raw/smart-crop-irrigation.csv`
-- ✅ Performed EDA & preprocessing in `notebooks/1_data_preprocessing.ipynb`
-- ✅ Saved `data/processed/preprocessed.csv` and `label_encoder.joblib`
-- ✅ Added basic visualizations (class balance, feature histograms)
+#2 
+Model training using Random Forest Classifier
+Evaluation with accuracy and classification report
+Streamlit web app for real-time crop recommendation
+Saved model file (rf_model.joblib)
 
+HEAD
 
 ## Week 2 Deliverables
 - Model training using Random Forest Classifier
@@ -40,3 +45,18 @@ Open Jupyter and run notebooks/2_model_training.ipynb.
 ```bash
 streamlit run app/app.py
 
+
+🚀 How to Run This Project Locally
+1️⃣ Clone the repository
+git clone https://github.com/Umme-Kulsum-44/smart-crop-irrigation.git
+cd smart-crop-irrigation
+2️⃣ Create and activate the virtual environment
+python -m venv venv
+venv\Scripts\activate
+3️⃣ Install dependencies
+pip install -r requirements.txt
+4️⃣ Run model training
+Open Jupyter and run notebooks/2_model_training.ipynb.
+5️⃣ Launch the Streamlit app
+streamlit run app/app.py
+345d3f0 (Update README and model training notebook)

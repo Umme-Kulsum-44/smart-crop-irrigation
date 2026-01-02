@@ -1,37 +1,28 @@
-# =========================
 # Virtual environments
-# =========================
 venv/
 ENV/
 venv311/
 newenv/
 
-# =========================
 # Python cache
-# =========================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# =========================
 # Jupyter
-# =========================
 .ipynb_checkpoints/
 
-# =========================
 # Ignore RAW datasets only
-# =========================
 # (comment this if your CSV is small and you want to upload it)
 # *.csv
 
-# =========================
+
 # IMPORTANT: keep ML models
-# =========================
 # DO NOT ignore .joblib or .pkl
 
-# =========================
+
 # System files
-# =========================
+
 .DS_Store
 Thumbs.db
